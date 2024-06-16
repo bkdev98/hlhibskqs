@@ -5,7 +5,7 @@ import { countdown } from "./utils";
 import { START_TIME } from "./constants";
 
 export default function Home() {
-  const [value, setValue] = useState<string>();
+  const [value, setValue] = useState<string>(countdown(START_TIME));
 
   useEffect(() => {
     const interval = setInterval(() => {
