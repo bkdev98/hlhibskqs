@@ -21,7 +21,7 @@ export default function Home() {
         <div className="h-full w-full bg-[url('/gradient.jpeg')] bg-top bg-no-repeat opacity-[0.3]" />
       </div>
       <div className="relative flex flex-col items-center justify-between p-12 lg:p-16 gap-8 min-h-screen">
-        <p>this was</p>
+        <p>it was</p>
         <h1 className="text-[100px] md:text-[140px] xl:text-[170px] leading-none text-dotted text-center">
           {value}
         </h1>
