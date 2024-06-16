@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <main className="min-h-screen relative bg-[#1D1916]">
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="bg-[url('/grainy.png')] opacity-[0.0625] inset-0 absolute" />
-        <div className="h-full w-full bg-[url('/gradient.jpeg')] bg-top bg-no-repeat opacity-[0.3]" />
+        <div className="bg-[url('/grainy.png')] opacity-[0.0625] -inset-[150%] absolute w-[300%] h-[300%] animate-grain" />
+        <div className="absolute inset-24 rounded-full blur-3xl [background:conic-gradient(from_195.7deg_at_50%_50%,_#7147FF_0deg,_rgba(66,_232,_255,_0)_95.01deg,_rgba(255,_126,_171,_0.5)_185.59deg,_#7147FF_360deg)]" />
       </div>
       <div className="relative flex flex-col items-center justify-between p-12 lg:p-16 gap-8 min-h-screen">
         <p>it's been</p>
