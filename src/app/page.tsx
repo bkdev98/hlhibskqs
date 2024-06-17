@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       <div className="relative flex flex-col items-center justify-between p-12 lg:p-16 gap-8 min-h-screen">
         <p>it's been</p>
-        <h1 className="text-[100px] md:text-[140px] xl:text-[170px] leading-none text-dotted text-center">
+        <h1 className="text-[80px] md:text-[140px] xl:text-[170px] leading-none text-dotted text-center">
           {value}
         </h1>
         <p>since Khanh quit smoking...</p>
